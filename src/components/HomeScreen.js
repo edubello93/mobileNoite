@@ -16,6 +16,10 @@ function HomeScreen({ navigation }) {
         title='Vai para calculo Média das notas'
         onPress={() => navigation.navigate('Notas')}
       />
+      <Button
+        title='Color List'
+        onPress={() => navigation.navigate('ColorList')}
+      />
     </View>
   );
 }
