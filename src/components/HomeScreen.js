@@ -12,6 +12,10 @@ function HomeScreen({ navigation }) {
         title='Vai para calculo IMC'
         onPress={() => navigation.navigate('FormIMC')}
       />
+      <Button
+        title='Vai para calculo Média das notas'
+        onPress={() => navigation.navigate('Notas')}
+      />
     </View>
   );
 }

@@ -1,9 +1,9 @@
 
 
- function ResultImc(props) {
-    
-    
-    
+function ResultImc(props) {
+
+
+
     return (
         <View>
             <Text>{props.resultImc}</Text>

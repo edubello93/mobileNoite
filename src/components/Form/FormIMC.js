@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { View, Text, TextInput, Button } from "react-native";
-import ResultImc from "../result/ResultImc";
 
 function FormIMC() {
     const [height, setHeight] = useState(null);
@@ -59,9 +58,7 @@ function FormIMC() {
                 />
                 <Text>altura: {height}</Text>
                 <Text>peso: {weight}</Text>
-
                 <Text>{messageImc}</Text>
-
                 <Text>{imc}</Text>
             </View>
         </View>
